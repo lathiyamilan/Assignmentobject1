@@ -1,17 +1,3 @@
-// let teacher ={
-//     fname :"Milan",
-//     lname : " lathiya",
-//     field : "Engineering",
-//     address :{
-
-
-//     }
-
-// }
-
-// console.log("Teacher Name is :",teacher.fname +  teacher.lname);
-
-
 
 let teacher={
         firstName:"Milan",
@@ -30,7 +16,6 @@ let teacher={
             return this.degree.Engineering +this.degree.Phd+ this.certificates.certificate1+this.certificates.certificate2 ;
         }
     }
-// console.log(`Teacher's Full Name : ${teacher.firstName} ${teacher.lastName}`);
 console.log("Teacher's Full Name :" ,teacher.firstName , teacher.lastName);
 console.log("Teacher's Degrees :",teacher.degree);
 console.log("Teacher's Certifattes : ",teacher.certificates)
